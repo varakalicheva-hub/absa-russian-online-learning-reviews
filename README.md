@@ -103,26 +103,3 @@ Predicted and gold-standard quadruples are compared using strict and partial mat
 Cosine similarity is computed between vector representations of automatically extracted aspect terms and opinion expressions and their corresponding gold-standard annotations.
 
 ---
-
-## Directory Structure
-
-```text
-.
-├── data/
-│   ├── 01_full_corpus_2400.csv
-│   ├── 02_annotation_sample_300.csv
-│   ├── 03_evaluation_sample_100.csv
-│   ├── 04_gold_annotation_100.csv
-│   ├── 05_gpt41mini_annotation_100.csv
-│   ├── 06_deepseek_v32_annotation_100.csv
-│   └── 07_yandexgpt_51pro_annotation_100.csv
-│
-├── notebooks/
-│   ├── llm_annotation.ipynb
-│   ├── quadruple_matching_evaluation.ipynb
-│   └── semantic_similarity_evaluation.ipynb
-│
-└── README.md
-```
-
----
