@@ -124,9 +124,3 @@ Cosine similarity is computed between vector representations of automatically ex
 │
 └── README.md
 ```
-
----
-
-## Citation
-
-If you use this dataset or code in your research, please cite the corresponding SPECOM paper.
